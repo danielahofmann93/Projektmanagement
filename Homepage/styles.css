@@ -1,33 +1,32 @@
-											body {
-												  background-color:cornsilk;
-													opacity:0.2}
-
-											h1 {
- 												 color: black,
-
-												  font-family: Arial, Helvetica, sans-serif;
-												  font size: 18;
-														 }
-											 h2 {color: black:
-												 font-family: Arial, Helvetica, sans-serif;
-																  font size: 10}
-
-													  h3 {font-family: Arial, Helvetica, sans-serif;
-													  font size: 10}
-													p1 {
-													  color: black;
-												  font-family: Arial, Helvetica, sans-serif;
-												  font size: 14
-													  }
-
-			
-                        						         .text-mit-bild {
-				                                 		background-image: url(https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/34323_ver_1.png);
-                           						      background-size: cover; /* Bild füllt den Bereich aus */
-                             							    background-position: center; /* Bild zentrieren */
-                           							     padding: 20px; /* Abstand zwischen Text und Bildrand */
-                             							   color: white; /* Textfarbe anpassen für Lesbarkeit */
-                         						       font-family: Arial, sans-serif;
+body {
+background-color:cornsilk;
+opacity:0.2}
+h1 {
+color: black,
+ font-family: Arial, Helvetica, sans-serif;
+font size: 18;
+ }
+ h2 {color: black:
+ font-family: Arial, Helvetica, sans-serif;
+font size: 10}
+h3 {font-family: Arial, Helvetica, sans-serif;
+font size: 10}
+p1 {
+ color: black;
+  font-family: Arial, Helvetica, sans-serif;
+ font size: 14
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}.text-mit-bild {
+background-image: url(https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/34323_ver_1.png);
+background-size: cover; /* Bild füllt den Bereich aus */
+background-position: center; /* Bild zentrieren */
+padding: 20px; /* Abstand zwischen Text und Bildrand */
+color: white; /* Textfarbe anpassen für Lesbarkeit */ 
+font-family: Arial, sans-serif;
 			}
 
 <div class="text-mit-bild">
