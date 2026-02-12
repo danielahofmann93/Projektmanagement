@@ -8,7 +8,8 @@ h1 {
   font-family: Calibri, Helvetica, sans-serif;
   font size: 18;
  }
- h2 {font-family: Calibri, Helvetica, sans-serif;
+ h2 {color: black:
+	 font-family: Calibri, Helvetica, sans-serif;
   font size: 10}
 
   h3 {font-family: Calibri, Helvetica, sans-serif;
@@ -19,7 +20,7 @@ p1 {
   font size: 14
   }
 
-<style>
+
                                  .text-mit-bild {
                                  background-image: url(https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/34323_ver_1.png);
                                  background-size: cover; /* Bild füllt den Bereich aus */
@@ -27,7 +28,12 @@ p1 {
                                 padding: 20px; /* Abstand zwischen Text und Bildrand */
                                 color: white; /* Textfarbe anpassen für Lesbarkeit */
                                 font-family: Arial, sans-serif;
+			}
 
+<div class="text-mit-bild">
+	<h0>dieser Text hat ein Bild im Hintergrund
+	</h0>
+	</div>
 /* unvisited link */
 a:link {
   color: black;
@@ -48,9 +54,4 @@ a:active {
   color: blue;
 }
               }
-                        </style>
-                        <div class="text-mit-bild">
-                                <h1>Dieser Text hat ein Bild im Hintergrund
-                                </h1>
-                        </div>
-
+                        
