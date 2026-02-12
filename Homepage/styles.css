@@ -1,12 +1,23 @@
 body {
   background-color:cornsilk;
-}
+opacity:0.2}
+
 h1 {
   color: black,
-}
-p {
+  font-family: "Calibri"
+  font-family: Calibri, Helvetica, sans-serif;
+  font size: 18;
+ }
+ h2 {font-family: Calibri, Helvetica, sans-serif;
+  font size: 10}
+
+  h3 {font-family: Calibri, Helvetica, sans-serif;
+  font size: 10}
+p1 {
   color: black;
-}
+  font-family: Calibri, Helvetica, sans-serif;
+  font size: 14
+  }
 
 <style>
                                  .text-mit-bild {
@@ -16,6 +27,26 @@ p {
                                 padding: 20px; /* Abstand zwischen Text und Bildrand */
                                 color: white; /* Textfarbe anpassen für Lesbarkeit */
                                 font-family: Arial, sans-serif;
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
               }
                         </style>
                         <div class="text-mit-bild">
